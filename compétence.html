@@ -12,52 +12,81 @@
 </head>
 <body>
     
-    <!-- Menu du haut -->
+   
     <div class="w3-bar w3-border w3-black">
         <a href="index.html" class="w3-bar-item w3-button">accueil</a>
-        <a href="compétence.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">compétence</a>
+        <a href="competence.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">compétence</a>
         <a href="projet.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">projet</a>
         <a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">contact</a>
     </div>
 
-    <!-- Contenu principal dans un conteneur pour éviter que ça colle aux bords -->
-    <div class="w3-container" style="padding: 20px;">
+    
+    <div class="w3-container" style="padding: 20px; max-width: 800px; margin: auto; margin-bottom: 60px;">
         
         <h1>Cette année je suis en <span class="titre_principal">STI2D_SIN</span></h1>
         
-        <h2 class="color">Voici les disciplines enseignées en STI2D_SIN :</h2> 
+        <h2 class="color">Voici les disciplines enseignées :</h2> 
         
-        <!-- Liste stylée -->
-        <ul class="w3-ul w3-card-4" style="max-width: 400px; margin-bottom: 20px; border-radius: 4px;">
+        <!-- Liste des disciplines -->
+        <ul class="w3-ul w3-card-4" style="margin-bottom: 20px; border-radius: 4px;">
             <li><strong>SIN</strong> (Systèmes d'Information et Numérique)</li>
             <li><strong>2I2D</strong> (Ingénierie et Développement Durable)</li>
             <li><strong>Mathématiques</strong></li>
         </ul>
 
-        <!-- Panneau bleu d'information -->
-        <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue" style="max-width: 500px;">
+        <!-- Panneau d'information personnel -->
+        <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue" style="margin-bottom: 20px;">
             <p>Personnellement, ma matière préférée, c'est l'histoire-géographie !!!</p>
         </div>
+
+        <hr>
+
+        <!-- Compétences techniques demandées par le prof -->
+        <h2>Mes compétences techniques</h2>
+        <div class="w3-row-padding" style="margin: 0 -16px; margin-bottom: 20px;">
+            <div class="w3-half">
+                <ul class="w3-ul w3-card-4 w3-light-grey" style="border-radius: 4px;">
+                    <li><strong>HTML5 / CSS3 :</strong> Création et mise en page de sites web.</li>
+                    
+                </ul>
+            </div>
+            <div class="w3-half">
+                <ul class="w3-ul w3-card-4 w3-light-grey" style="border-radius: 4px;">
+                    <li><strong>VSCode :</strong> Éditeur de code source utilisé pour écrire ce site.</li>
+                    <li><strong>Convertio :</strong> Outil de conversion pour optimiser les images (ex : webp, png).</li>
+                </ul>
+            </div>
+        </div>
+
+     
+        <div class="w3-card-4 w3-white" style="margin-top: 20px; padding: 15px; border-radius: 8px;">
+            <h3>Focus sur une technologie : VSCode & Convertio</h3>
+            <p>Pour réaliser ce portfolio, j'ai utilisé <strong>VSCode</strong> pour rédiger et organiser mon code HTML et CSS proprement. J'ai aussi eu besoin de <strong>Convertio</strong> pour convertir et adapter mes images au bon format (comme .png ou .webp) afin qu'elles s'affichent correctement et rapidement sur le site.</p>
+        </div>
         
-        <!-- Image de Cars proprement intégrée -->
-        <div style="margin-top: 20px;">
-            <img src="cars.jpg" alt="Cars" class="w3-card" style="max-width: 250px; height: auto; border-radius: 8px;">
+        
+        <div class="w3-card-4 w3-light-grey" style="margin-top: 30px; padding: 20px; border-radius: 8px; text-align: center;">
+            
+            <div style="margin-top: 15px;">
+                <img src="cars.jpg" alt="Cars" class="w3-image w3-card-4" style="max-width: 400px; width: 100%; height: auto; border-radius: 8px;">
+            </div>
+            
         </div>
         
         <hr>
 
-        <!-- Lien de retour -->
+       
         <p>
-            <a href="index.html"> Retour à l'accueil</a>
+            <a href="index.html">⬅ Retour à l'accueil</a>
         </p>
 
     </div>
 
-    <!-- Menu du bas (pagination corrigée, centrée et active sur le 2) -->
+    
     <div class="w3-bar w3-xlarge w3-bottom w3-black w3-center" style="display: flex; justify-content: center;">
         <a href="index.html" class="w3-button">&laquo;</a>
         <a href="index.html" class="w3-button">1</a>
-        <a href="compétence.html" class="w3-button w3-dark-grey">2</a>
+        <a href="competence.html" class="w3-button w3-dark-grey">2</a>
         <a href="projet.html" class="w3-button">3</a>
         <a href="contact.html" class="w3-button">4</a>
         <a href="projet.html" class="w3-button">&raquo;</a>

@@ -1,0 +1,34 @@
+.titre_principal
+{ 
+    color : #FFA214; 
+    text-decoration: underline;
+    } 
+
+.color
+{
+    font-size: 2em;
+    color:  #9FA0A6;
+    font-style: italic;
+    text-decoration: underline;
+    } 
+
+    .texte
+{ 
+color: aqua;
+font-style: oblique;
+text-decoration: underline;
+} 
+
+body
+{ 
+background-color: rgb(238, 233, 233);
+}
+
+
+
+    
+        
+     
+
+
+

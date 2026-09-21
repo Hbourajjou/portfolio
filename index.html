@@ -5,17 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css"> 
     <link rel="icon" href="th.webp">
-    
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Page d'accueil de mon site</title>
 </head>
 <body>
-    <h1 class="texte">Bienvenue sur la présentation de mon site</h1>
-    <div class="w3-panel w3-red">
-    <h2>Attention !</h2>
-    <p>Ceci est mon premier site alors soyez indulgents</p>
-    </div>
-   
+    
+    <!-- Menu de navigation du haut -->
     <div class="w3-bar w3-border w3-black">
         <a href="index.html" class="w3-bar-item w3-button">accueil</a>
         <a href="compétence.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">compétence</a>
@@ -23,20 +18,50 @@
         <a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">contact</a>
     </div>
 
-   <div class="w3-bar w3-xlarge w3-bottom">
-  <a href="contact.html" class="w3-button">&laquo;</a>
-  <a href="index.html" class="w3-button">1</a>
-  <a href="compétence.html" class="w3-button">2</a>
-  <a href="projet.html" class="w3-button">3</a>
-  <a href="contact.html" class="w3-button">4</a>
-  <a href="compétence.html" class="w3-button">&raquo;</a>
-</div>
-    
-    <br>
-    <img src="mario.jpg" alt="Mario" border="2" width="500" height="440">
+    <!-- Contenu principal -->
+    <div class="w3-container" style="padding: 20px; max-width: 800px; margin: auto;">
+        
+        <h1 class="texte">Bienvenue sur la présentation de mon site</h1>
+        
+        <div class="w3-panel w3-red" style="border-radius: 4px;">
+            <h2>Attention !</h2>
+            <p>Ceci est mon premier site alors soyez indulgents</p>
+        </div>
+        
+        <!-- Image avec effet W3.CSS (w3-display-container) comme dans ta documentation -->
+        <div style="margin-top: 20px; margin-bottom: 20px;">
+            <a href="https://jean-moulin-beziers.mon-ent-occitanie.fr" target="_blank" style="text-decoration: none;">
+                <div class="w3-display-container w3-card-4" style="border-radius: 8px; overflow: hidden;">
+                    <img src="jm.jpg" alt="Mario - Lien vers le lycée" style="width:100%; display:block;">
+                    <!-- Texte incrusté sur l'image (façon Norway dans ton cours) -->
+                    <div class="w3-display-bottomleft w3-container w3-black" style="background: rgba(0,0,0,0.8); width: 100%; padding: 10px;">
+                        <p style="margin: 0; color: white;"> <strong>Lycée Jean Moulin (Béziers)</strong> - Cliquez pour visiter le site</p>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-    <br><a href="https://jean-moulin-beziers.mon-ent-occitanie.fr">Visiter le site de mon Lycée ?</a>
-    <br><a href="compétence.html">Visiter la page 1 de mon site ?</a>
-    <br><a href="contact.html">Visiter la page 2 de mon site ?</a>
+        <!-- Liens de navigation rapide -->
+        <div class="w3-card" style="padding: 15px; border-radius: 8px; background-color: #f9f9f9;">
+            <h3>Navigation rapide :</h3>
+            <p>
+                 <a href="compétence.html">Visiter la page des compétences</a><br>
+                 <a href="projet.html">Visiter la page des projets</a><br>
+                 <a href="contact.html">Visiter la page de contact</a>
+            </p>
+        </div>
+
+    </div>
+    
+    <!-- Menu de pagination du bas -->
+    <div class="w3-bar w3-xlarge w3-bottom w3-black w3-center" style="display: flex; justify-content: center;">
+        <a href="contact.html" class="w3-button">&laquo;</a>
+        <a href="index.html" class="w3-button w3-dark-grey">1</a>
+        <a href="compétence.html" class="w3-button">2</a>
+        <a href="projet.html" class="w3-button">3</a>
+        <a href="contact.html" class="w3-button">4</a>
+        <a href="compétence.html" class="w3-button">&raquo;</a>
+    </div>
+
 </body>
 </html>
